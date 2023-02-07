@@ -38,6 +38,11 @@ namespace BasicCorePrograming
                     PowerOf powerOf = new PowerOf();
                     powerOf.TwoTable();
                     break;
+                case 4:
+                    Console.WriteLine("Harmonic Number is runing ");
+                    HermonicNumber hermonicNumber = new HermonicNumber();
+                    hermonicNumber.CalculateHermonicNumber();
+                    break;
 
             }
             Console.ReadLine();
