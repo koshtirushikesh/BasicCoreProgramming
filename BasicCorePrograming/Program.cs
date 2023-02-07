@@ -33,6 +33,11 @@ namespace BasicCorePrograming
                     Leap leap = new Leap();
                     leap.Year();
                     break;
+                case 3:
+                    Console.WriteLine("Power of 2 is runing");
+                    PowerOf powerOf = new PowerOf();
+                    powerOf.TwoTable();
+                    break;
 
             }
             Console.ReadLine();
