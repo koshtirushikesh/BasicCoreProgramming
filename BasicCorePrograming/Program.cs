@@ -18,6 +18,8 @@ namespace BasicCorePrograming
             Console.WriteLine("6. Quotient and Remainder");
             Console.WriteLine("7. swap number");
             Console.WriteLine("8. Even or Odd");
+            Console.WriteLine("9. Vowel or Consonant");
+            Console.WriteLine("10. Largest Among the Three Number");
             Console.WriteLine("Enter Option");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -63,6 +65,16 @@ namespace BasicCorePrograming
                     Console.WriteLine("Even or Odd is running");
                     EvenOrOdd evenOrOdd = new EvenOrOdd();
                     evenOrOdd.CheckNumberEvenOrOdd();
+                    break;
+                case 9:
+                    Console.WriteLine("Vowel or Consonant is running");
+                    VowelOrConsonant vowelOrConsonant = new VowelOrConsonant();
+                    vowelOrConsonant.CheckCharactor();
+                    break;
+                case 10:
+                    Console.WriteLine("Largest Among the Three Number is running");
+                    LargestAmong largestAmong = new LargestAmong();
+                    largestAmong.ThreeNumber();
                     break;
 
             }
