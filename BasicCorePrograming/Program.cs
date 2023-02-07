@@ -17,6 +17,7 @@ namespace BasicCorePrograming
             Console.WriteLine("5. Factors");
             Console.WriteLine("6. Quotient and Remainder");
             Console.WriteLine("7. swap number");
+            Console.WriteLine("8. Even or Odd");
             Console.WriteLine("Enter Option");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -57,6 +58,11 @@ namespace BasicCorePrograming
                     Console.WriteLine("Swap number is running");
                     Swap swap = new Swap();
                     swap.SwapTwoNumber();
+                    break;
+                case 8:
+                    Console.WriteLine("Even or Odd is running");
+                    EvenOrOdd evenOrOdd = new EvenOrOdd();
+                    evenOrOdd.CheckNumberEvenOrOdd();
                     break;
 
             }
