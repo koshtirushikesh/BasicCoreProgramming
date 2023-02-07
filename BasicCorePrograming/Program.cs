@@ -43,6 +43,16 @@ namespace BasicCorePrograming
                     HermonicNumber hermonicNumber = new HermonicNumber();
                     hermonicNumber.CalculateHermonicNumber();
                     break;
+                case 5:
+                    Console.WriteLine("Fators is running");
+                    Factors factors = new Factors();
+                    factors.FactorNumers();
+                    break;
+                case 6:
+                    Console.WriteLine("Quotient and Remainder is runnig");
+                    QuotientAndRemainder quotientAndRemainder = new QuotientAndRemainder();
+                    quotientAndRemainder.ComputeQuotientAndRemainder();
+                    break;
 
             }
             Console.ReadLine();
