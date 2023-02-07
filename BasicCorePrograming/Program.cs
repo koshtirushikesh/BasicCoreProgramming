@@ -53,6 +53,11 @@ namespace BasicCorePrograming
                     QuotientAndRemainder quotientAndRemainder = new QuotientAndRemainder();
                     quotientAndRemainder.ComputeQuotientAndRemainder();
                     break;
+                case 7:
+                    Console.WriteLine("Swap number is running");
+                    Swap swap = new Swap();
+                    swap.SwapTwoNumber();
+                    break;
 
             }
             Console.ReadLine();
