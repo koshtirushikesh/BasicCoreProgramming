@@ -28,7 +28,12 @@ namespace BasicCorePrograming
                     flip.Coin();
                     flip.Coin1();
                     ; break;
-                
+                case 2:
+                    Console.WriteLine("Leap Year is runing");
+                    Leap leap = new Leap();
+                    leap.Year();
+                    break;
+
             }
             Console.ReadLine();
         }
