@@ -17,6 +17,7 @@ namespace BasicCorePrograming
             Console.WriteLine("Enter 3rd Number");
             int _num3 = Convert.ToInt32(Console.ReadLine());
 
+
             if (_num1.CompareTo(_num2) > 0 && _num1.CompareTo(_num3) > 0)
                 Console.WriteLine("1st number is greater");
             else if (_num2.CompareTo(_num3) > 0 && _num2.CompareTo(_num1) > 0)
